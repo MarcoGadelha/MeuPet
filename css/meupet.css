@@ -182,8 +182,27 @@ header li{
     
 }
 
+/* best-product */
+.best-product{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+.best-prod-left{
+    width: 50%;
+    padding-top: 60px;
+}
 
+.best-prod-sub{
+    color: #752068;
+    margin-bottom: -15px;
+}
+
+.best-product-right{
+
+}
 /* footer */
 
 footer{
