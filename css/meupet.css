@@ -112,6 +112,7 @@ header li{
 .categories-section{
     background-color: #F2F2F2;
     height: 500px;
+    
 }
 
 .categories-up{
@@ -119,7 +120,7 @@ header li{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -142,12 +143,51 @@ header li{
     display: flex;
     justify-content: center;
 }
+/* discount section */
+
+.discount-section{
+    height: 530px;
+    background-color: #752068;
+    color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disc-content{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    width: 45%;
+    margin-left: 50px;
+}
+
+.disc-title h1{
+    font-size: 40px;
+}
+
+.disc-number{
+    color: #FEDD58;
+}
+
+.disc-sub {
+    text-align: center;
+
+}
+.img-disc img{
+    height: 350px;
+    
+}
+
 
 
 /* footer */
 
 footer{
-    height: 250px;
+    height: 280px;
     background-color:#474654 ;
     color: #F2F2F2;
     padding-left: 50px;
@@ -187,6 +227,21 @@ footer .row{
     padding-top: 25px;
 }
 
-.col-4{
+.footer-label{
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
     width: 24% !important;
+}
+
+button {
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+      transform: scale(1.1); 
+    }
+    &:focus-out {
+      transform: scale(1); 
+    }
 }
