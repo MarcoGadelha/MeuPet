@@ -131,7 +131,6 @@ header li{
     width: 100%;
 }
 
-
 .animal-circle{
     height: 220px;
     width: 220px;
@@ -143,8 +142,8 @@ header li{
     display: flex;
     justify-content: center;
 }
-/* discount section */
 
+/* discount section */
 .discount-section{
     height: 530px;
     background-color: #752068;
@@ -200,11 +199,31 @@ header li{
     margin-bottom: -15px;
 }
 
-.best-product-right{
-
+/* comunity section*/
+.comunity-section{
+    padding-top: 50px;
+    justify-content: center;
 }
-/* footer */
+.comunity-content{
+    display: inline-flex;
+    text-align: center;
+}
 
+.comunity-content-post{
+    width: 350px;
+    align-items: center;
+}
+.content-post-sub{
+    color: #752068;
+}
+
+.content-post-img{
+    height: 150px;
+    width: 180px;
+    background-color: #474654;
+}
+
+/* footer */
 footer{
     height: 280px;
     background-color:#474654 ;
@@ -212,6 +231,7 @@ footer{
     padding-left: 50px;
     padding-right: 50px;
 }
+
 footer p{
     font-size: 14px;
 }
