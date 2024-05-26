@@ -1,8 +1,8 @@
-@import url('header.css');
-@import url('categories.css');
-@import url('discount.css');
-@import url('trending-section.css');
-@import url('shop.css');
-@import url('best-prod.css');
-@import url('comunity.css');
-@import url('footer.css');
+@import url('sections/header.css');
+@import url('sections/categories.css');
+@import url('sections/discount.css');
+@import url('sections/trending-section.css');
+@import url('sections/shop.css');
+@import url('sections/best-prod.css');
+@import url('sections/comunity.css');
+@import url('sections/footer.css');
