@@ -1,0 +1,100 @@
+/* shop up */
+.shop-up-promo{
+    display: flex;
+    justify-content: center !important;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.promo-cube{
+    height: 300px;
+    width: 580px;
+    background-color:#FAC066;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 4%;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.promo-btn button{
+    width: 150px;
+    height: 45px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: rgb(117, 32, 104);
+    box-shadow: 2px 2px  rgb(73, 19, 65);       
+    color: #F2F2F2;
+}
+
+.promo-number p{
+    color: #752068;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.promo-img img{
+    height: 230px;
+}
+
+/* shop down */
+.shop-down-itens{
+    margin-bottom: 7%;
+}
+
+.shop-header{
+    margin-bottom: 6%;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.shop-header-sub p{
+    color: #752068;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.shop-itens{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-itens-first{
+    display: flex;
+    align-items: center;
+}
+
+.item-sesh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.item-sesh p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-price p{
+    font-weight: 700;
+}
+
+.item-name p{
+    font-weight: 400;
+    margin-bottom: -4px;
+}
+
+.item-img{
+    background-color: #F2F2F2;
+    width: 225px;
+    height: 260px;
+    border-radius: 4px;
+}
