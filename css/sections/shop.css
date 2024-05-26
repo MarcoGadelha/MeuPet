@@ -76,6 +76,13 @@
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+      transform: scale(1.1); 
+    }
+    &:focus-out {
+      transform: scale(1); 
+    }
 }
 
 .item-sesh p {
@@ -83,13 +90,16 @@
     font-weight: 600;
 }
 
+
+
 .item-price p{
     font-weight: 700;
 }
 
 .item-name p{
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: -4px;
+    margin-top: 5%;
 }
 
 .item-img{
@@ -97,4 +107,13 @@
     width: 225px;
     height: 260px;
     border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img img{
+    width: 90%;
+    height: 90%;
 }
