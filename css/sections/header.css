@@ -22,7 +22,7 @@ p{
     width: 100%;
     height: 660px;
     color: white;
-    background-image: url(/imgs/fundo-about.png);
+    background-image: url(/imgs/header/fundo-about.png);
     display: flex;
     flex-direction: row;
     justify-content: center;
